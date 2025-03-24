@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Oleo+Script:wght@400;700&family=Sawarabi+Mincho&display=swap');
+
+.perfiles-iniciados {
+  display: flex;
+  margin: auto;
+  margin-left: 32px;
+  height:  35px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.configuraciones-Perfil {
+  display: flex;
+  margin: auto;
+  margin-right: 6px;
+  height:  35px;
+  width:  35px;
+  background-image: url('../public/google-icons/menu_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.configuraciones-Perfil-Render {
+  background-image: url('../public/render-icons/render_menu_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.img-Perfil {
+  display: flex;
+  margin: auto;
+  margin-top: 8px;
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  background-image: url('https://unavatar.io/p');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.userName-Perfil {
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 28px;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.caja-Perfil {
+  display: flex;
+  margin: auto;
+  height: 55px;
+  width: 100%;
+}
+
+.siguiendo-Num {
+  display: grid;
+  margin: auto;
+  height:  50px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.seguidores-Num {
+  display: grid;
+  margin: auto;
+  height:  50px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.meGusta-Num {
+  display: grid;
+  margin: auto;
+  height:  50px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.a2 {
+  display: flex;
+  margin: auto;
+  margin-top: 2px;
+  height: 14px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.b3 {
+  display: flex;
+  margin: auto;
+  margin-bottom: 14px;
+  height: 15px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size:  15px;
+  color: gray;
+}
+

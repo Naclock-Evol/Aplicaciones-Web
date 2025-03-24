@@ -1,0 +1,248 @@
+
+.shared-Dow {
+  display: block;
+  margin-bottom: 0;
+  min-height: 110px;
+  width: 100%;
+  border-top: .5px solid gray;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.oneSection {
+  display: flex;
+  min-height: 60px;
+  width: 99%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+
+.shared-Perfil {
+  display: flex;
+  background-image: url('https://unavatar.io/p');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.input-Shared {
+  display: flex;
+  width: 330px;
+  height: 43px;
+  border-radius: 20px;
+  background: rgba(217, 216, 216, 0.649);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.twoSection {
+  display: flex;
+  margin: auto;
+  width: 92%;
+  height: 50px;
+}
+
+.emoji-one {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/cara_sonriente_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-two {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/carita_enamorada_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-three {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/carcajadas_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-four {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/sorprendido_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-five {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/cara_coqueta_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-six {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/sonrisa_incomoda_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.emoji-seven {
+  display: flex;
+  margin: auto;
+  height: 31px;
+  width: 31px;
+  background-image: url('../public/emojis-png/carita_tierna_emoji.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+
+.threeSection {
+  display: none;
+  height: 30px;
+  width: 305px;
+}
+
+.threeSection.threeSectionOpen {
+  display: flex;
+}
+
+.inputEdit {
+  display: flex;
+  margin: auto;
+  min-height: 20px;
+  height: 20px;
+  width: 265px;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: serif;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.comentarButton {
+  display: flex;
+  margin: auto;
+  height: 25px;
+  width: 35px;
+  border-radius: 8px;
+  background-image: url('../public/google-icons/send_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+}
+
+.sectionTemp {
+  display: flex;
+  margin: auto;
+  height: 37px;
+  width: 330px;
+  border-radius: 20px;
+}
+
+.sectionTemp.sectionTempClose {
+  display: none;
+}
+
+.agregarComentario {
+  display: flex;
+  height: 30px;
+  width: 230px;
+  margin: auto;
+  margin-left: 10px;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: serif;
+  color: rgba(100,100, 100, 0.829);
+}
+
+.arrobaSection {
+  display: flex;
+  margin: auto;
+  height: 38px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.icon-one {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  background-image: url('../public/newIconos/arroba_icon_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.icon-two {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  background-image: url('../public/newIconos/cara_feliz_icon_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.icon-three {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  background-image: url('../public/newIconos/imagen_icon_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.icon-four {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  background-image: url('../public/newIconos/regalo_icon_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}

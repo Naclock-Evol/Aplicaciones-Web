@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+.caja-Perfil2 {
+  display: flex;
+  margin: auto;
+  height: 58px;
+  width: 100%;
+}
+
+.edit-Perfil {
+  display: flex;
+  margin: auto;
+  height: 55px;
+  width: 110px;
+  border-radius: 10px;
+  background: rgba(226, 226, 226, 0.827);
+  justify-content: center;
+  align-items: center;
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.compartir-Perfil {
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 165px;
+  border-radius: 10px;
+  background: rgba(226, 226, 226, 0.827);
+  justify-content: center;
+  align-items: center;
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.plus-Friends {
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background: rgba(226, 226, 226, 0.827);
+  background-image: url('../public/google-icons/person_add_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.plus-script {
+  display: flex;
+  margin: auto;
+  margin-top: 0;
+  height: 18px;
+  width: 150px;
+  border-radius: 4px;
+  background: rgba(226, 226, 226, 0.827);
+  justify-content: center;
+  align-items: center;
+  font-family: "Sansita Swashed", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 12.5px;
+
+}
+
+.video-List {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+  background-image: url('../public/google-icons/view_comfy_alt_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-List-Render {
+  background-image: url('../public/render-icons/render_view_comfy_alt_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-List {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+  background-image: url('../public/google-icons/lock_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-List-Render {
+  background-image: url('../public/render-icons/render_lock_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.repeat {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+  background-image: url('../public/google-icons/repeat_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.repeat-Render {
+  background-image: url('../public/render-icons/render_repeat_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.favoritos-Perfil {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 6px;
+  background-image: url('../public/google-icons/bookmark_check_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.favoritos-Perfil-Render {
+  background-image: url('../public/render-icons/render_bookmark_check_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.like-Perfil {
+  display: flex;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  background-image: url('../public/google-icons/heart_check_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.like-Perfil-Render {
+  background-image: url('../public/render-icons/heart_check_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

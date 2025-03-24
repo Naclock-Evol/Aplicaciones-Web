@@ -1,0 +1,71 @@
+
+.one-Perfil {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  height: 92vh;
+  width: 100%;
+  display: none;
+  background: white;
+}
+
+.open-Perfil {
+  display: block;
+}
+
+.container-Perfil {
+  width: 100%;
+  height: 87vh;
+} 
+
+.perfil-Up {
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.avatar-Perfil {
+  display: grid;
+  margin: auto;
+  height: 20.5vh;
+  width: 100%;
+}
+
+.siguiendo-Perfil {
+  display: flex;
+  margin: auto;
+  height: 5.5vh;
+  width: 70%;
+}
+
+.ajustes-Perfil {
+  display: flex;
+  margin: auto;
+  height: 8vh;
+  width: 85%;
+}
+
+.descripción-Perfil {
+  display: flex;
+  margin: auto;
+  height: 3.5vh;
+  width: 100%;
+}
+
+.funciones-Perfil {
+  display: flex;
+  margin: auto;
+  height: 4.5vh;
+  width: 100%;
+}
+
+.contenido-List {
+  display: flex;
+  margin: auto;
+  margin-bottom: 0px;
+  height: 45vh;
+  width: 100%;
+}

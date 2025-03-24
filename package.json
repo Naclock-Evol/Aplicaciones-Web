@@ -1,0 +1,27 @@
+{
+  "name": "aplicaciones-web",
+  "version": "1.0.0",
+  "description": "Este repositor almacena las aplicaciones web pueden ser de una idea o un clone mejotado de aplicaciones de dispositivos moviles como una nueva version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naclock-Evol/Aplicaciones-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Naclock-Evol/Aplicaciones-Web/issues"
+  },
+  "homepage": "https://github.com/Naclock-Evol/Aplicaciones-Web#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}

@@ -1,0 +1,88 @@
+
+.inicio {
+  background-image: url('../public/google-icons/home_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+
+.inicio-render {
+  background-image: url('../public/render-icons/render_home_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  margin-top: 2px;
+}
+
+.buscar {
+  background-image: url('../public/google-icons/search_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+
+.buscar-render {
+  background-image: url('../public/render-icons/render_search_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  margin-top: 2px;
+}
+
+.agregar {
+  display: flex;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  background-image: url('../public/google-icons/video_call_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.mensaje {
+  background-image: url('../public/google-icons/tooltip_2_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+
+.mensaje-render {
+  background-image: url('../public/render-icons/render_tooltip_2_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  margin-top: 2px;
+}
+
+.sección {
+  background-image: url('../public/google-icons/account_circle_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+}
+
+.sección-render {
+  background-image: url('../public/render-icons/render_account_circle_80dp.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  margin-top: 2px;
+}

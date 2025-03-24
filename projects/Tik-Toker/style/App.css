@@ -1,0 +1,24 @@
+
+.Pagina {
+  height: 92vh;
+  background: #444;
+}
+
+.follow {
+  background: yellow;
+  height: 92vh;
+  display: none;
+}
+
+.follow.follow-Close {
+  display: block;
+}
+
+.selector {
+  width: 100%;
+  display: flex;
+  background: #aaa;
+  height: 8vh;
+  margin-bottom: 0;
+}
+

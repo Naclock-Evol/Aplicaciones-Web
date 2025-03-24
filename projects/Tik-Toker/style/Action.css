@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Oleo+Script:wght@400;700&display=swap');
+
+.encabezado {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.0);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: rgb(2, 2, 2, 0.0);
+  width: 270px;
+}
+
+.ventana {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 65px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-family: system-ui, apple-system;
+}
+
+.contener {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background: rgb(0, 0, 0, 1.0);
+  height: 92vh;
+  margin: 0px;
+  
+}
+
+.caja {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  margin: 8px;
+  height: 400px;
+}
+
+
+.action-caja {
+  display: grid;
+  margin: auto;
+}
+
+.photo-perfil {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50px;
+}
+
+.like {
+  display: flex;
+  margin: auto;
+  background-image: url('../public/google-icons/favorite_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  transition: .5s;
+}
+
+.like.like-render {
+  background-image: url('../public/render-icons/render_favorite_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.comentario {
+  display: flex;
+  margin: auto;
+  background-image: url('../public/google-icons/sms_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  transition: .5s;
+}
+
+.comentario.comentario-render {
+  background-image: url('../public/render-icons/render_sms_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.favoritos {
+  display: flex;
+  margin: auto;
+  background-image: url('../public/google-icons/bookmark_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  transition: .5s;
+}
+
+.favoritos-render {
+  background-image: url('../public/render-icons/render_bookmark_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.compartir {
+  display: flex;
+  margin: auto;
+  background-image: url('../public/google-icons/share_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  transition: .5s;
+}
+
+.compartir.compartir-render {
+  background-image: url('../public/render-icons/render_share_80dp.png');
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.música {
+  display: flex;
+  margin: auto;
+  background-image: url('../public/google-icons/library_music_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 50px;
+  transition: .5s;
+}
+
+.música-render {
+  background-image: url('../public/render-icons/render_library_music_80dp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.h3 {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.h3 {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h3 {
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  margin: auto;
+  margin-bottom: 0px;
+  width: 40px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
